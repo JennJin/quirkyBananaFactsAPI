@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "BananaFactAPI"
+		}
+	],
+	"settings": {
+		"debug.internalConsoleOptions": "neverOpen"
+	}
+}
