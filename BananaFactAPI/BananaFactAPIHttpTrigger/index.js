@@ -65,7 +65,7 @@ module.exports = async function (context, req) {
         "Many growers use dwarf apple trees."
     ];
 
-    // Default Banana fruit fact if no quirky parameter is passed.
+    // Default Banana fruit fact if none or any other parameter than "fact" is passed.
     var factIndex = Math.floor(Math.random() * bananaFACTS.length);
     var theFact = bananaFACTS[factIndex];
 
