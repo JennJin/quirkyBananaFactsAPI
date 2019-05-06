@@ -65,7 +65,7 @@ module.exports = async function (context, req) {
         "Many growers use dwarf apple trees."
     ];
 
-    // Default Banana fruit fact if no quirky parameter is passed.
+    // Default Banana fruit fact if none or any other parameter than "fact" is passed.
     var factIndex = Math.floor(Math.random() * bananaFACTS.length);
     var theFact = bananaFACTS[factIndex];
 
@@ -81,7 +81,7 @@ module.exports = async function (context, req) {
             factResponse = fruitFacts[fruitIndex];
 
         } else {
-            factResponse = "I don't have any facts for "+req.query.fruit+". ";
+            factResponse = "Sorry, I don't have any facts for "+req.query.fruit+"s. ";
         }
 
         // Sends the fact or error message back in the response 
