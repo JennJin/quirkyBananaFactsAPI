@@ -8,7 +8,7 @@ module.exports = async function (context, req) {
     // Add your own fruit facts here. Replace "myfruit" with a fruit name
     /*  
     var myfruitFACTS = [
-        "fact #1",
+        "Mangos are related to cashews and pistachios. Can you see the resemblance?",
         "fact #2",
     ];
     */
@@ -16,6 +16,12 @@ module.exports = async function (context, req) {
     // List of Banana Facts
     var bananaFACTS = [
         "Did you know there are ancient Egyptian hieroglyphs that depict people with bananas?",
+        "Bananas float in water because they are less dense in comparison.",
+        "Bananas grow on plants that are officially considered an herb.",
+        "The banana is actually classified as a berry.",
+        "Humans share about 50% of our DNA with bananas.",
+        "Rubbing a banana peel on your forehead can help cure a headache.",
+        "Americans eat an average of 27 pounds of bananas per person every year.",
         "Bananas have been around as early back as 6th century B.C. (this is when they were first mentioned in literature)",
         "Miss Chiquita first appeared on the famous banana labels in 1963.",
         "Did you know there is a museum in Auburn, Washington dedicated to bananas? It's called the Washington Banana Museum.",
@@ -28,6 +34,8 @@ module.exports = async function (context, req) {
         "Bananas are one of the few foods to contain the 6 major vitamin groups.",
         "If you peel a banana from the bottom up you won't get the string things.",
         "Those stringy things are called phloem (pronounced FLOM).",
+        "Bananas have been depicted in ancient Egyptian hieroglyphs.",
+        "More songs have been written about bananas than about any other fruit.",
         "The word banana comes from an Arab word 'banan' meaning finger.",
         "An individual banana is called a finger. A bunch of bananas is called a hand.",
         "The scientific name for banana is musa sapientum, which mean fruit of the wise men.",
